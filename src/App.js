@@ -44,12 +44,11 @@ function App() {
             onClick={login}>Login</button>
           }
           </p>
-          <a href="https://www.producthunt.com/posts/passkeys-by-pangea?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-passkeys&#0045;by&#0045;pangea" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=447101&theme=light" alt="Passkeys&#0032;by&#0032;Pangea - Authenticate&#0032;Smarter&#0044;&#0032;Not&#0032;Harder&#0032;with&#0032;Passkeys | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+          <a href="https://www.producthunt.com/posts/passkeys-by-pangea?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-passkeys&#0045;by&#0045;pangea" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=447101&theme=light" alt="Passkeys&#0032;by&#0032;Pangea - Authenticate&#0032;Smarter&#0044;&#0032;Not&#0032;Harder&#0032;with&#0032;Passkeys | Product Hunt" style={{width: "250px", height: "54px", width: "250", height: "54"}} /></a>
           <a
             className="App-link"
             href="https://l.pangea.cloud/yTXgwdq"
             target="_blank"
-            rel="noopener noreferrer"
           >
             Try Pangea AuthN for free today!
           </a>
