@@ -2,6 +2,7 @@
   "name": "passkeys-blog",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "@pangeacyber/react-auth": "^0.0.12",
     "@testing-library/jest-dom": "^5.17.0",
