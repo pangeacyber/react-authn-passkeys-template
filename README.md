@@ -2,9 +2,9 @@
 
 This repository is a template that uses [Pangea AuthN](https://l.pangea.cloud/6YIN6PM) to enable Passkey based authentication in < 2mins
 
-# Setup Instructions
+## Setup Instructions
 
-## Step 1: Create an account on [pangea.cloud](https://console.pangea.cloud/?utm_source=github&utm_medium=react-authn-passkeys-template) and copy tokens into `.env.local` file
+### Step 1: Create an account on [pangea.cloud](https://console.pangea.cloud/?utm_source=github&utm_medium=react-authn-passkeys-template) and copy tokens into `.env.local` file
 After signing up for a Pangea account, copy the `.env.example` template `.env.local` by running the following command in your terminal
 ```bash
 cp .env.example .env.local
@@ -16,7 +16,7 @@ REACT_APP_CLIENT_TOKEN="<YOUR_PROJECT_CLIENT_TOKEN>"
 REACT_APP_PANGEA_DOMAIN="<YOUR_PANGEA_DOMAIN>"
 ```
 
-## Step 2: Add Authorized Redirect and enable Passkeys Auth Method in Pangea console
+### Step 2: Add Authorized Redirect and enable Passkeys Auth Method in Pangea console
 Since we’re using a React SPA (single page application), we need to add an authorized redirect, so that Pangea’s AuthN hosted pages can successfully redirect us back to the http://localhost:3000/ when a user is done authenticating.
 
 First, let’s go under `General > Redirect (Callback) Settings` and add `http://localhost:3000/` as a redirect and save it.
@@ -25,7 +25,7 @@ Then, enable Passkeys. Go to `Single Sign On > Passkeys` and enable it. Optional
 
 Here’s a quick video on how you can enable it in [Pangea console settings](https://youtu.be/M2kPx1WteEE).
 
-## Step 3: Run dev server
+### Step 3: Run dev server
 Install the required npm packages
 ```
 npm install
