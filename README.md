@@ -5,16 +5,19 @@ This repository is a template that uses [Pangea AuthN](https://l.pangea.cloud/6Y
 ## Setup Instructions
 
 ### Step 1: Create an account on [pangea.cloud](https://console.pangea.cloud/?utm_source=github&utm_medium=react-authn-passkeys-template) and copy tokens into `.env.local` file
-After signing up for a Pangea account, copy the `.env.example` template `.env.local` by running the following command in your terminal
+After signing up for a Pangea account enable the AuthN service, rename the `.env.example` file to `.env.local` or run the following command
 ```bash
-cp .env.example .env.local
+mv .env.example .env.local
 ```
-Open up the `.env.local` file and paste in the appropriate tokens from the Pangea AuthN service dashboard
+Open up the `.env.local` file and copy and paste in the appropriate tokens from the Pangea AuthN service dashboard
 ```
 REACT_APP_LOGIN_URL="<YOUR_PROJECT_HOSTED_LOGIN_URL>"
 REACT_APP_CLIENT_TOKEN="<YOUR_PROJECT_CLIENT_TOKEN>"
 REACT_APP_PANGEA_DOMAIN="<YOUR_PANGEA_DOMAIN>"
 ```
+
+![Pangea AuthN dashboard](https://github.com/user-attachments/assets/8a17a09f-aa75-40ed-98ed-8e72d3bfdc9d)
+
 
 ### Step 2: Add Authorized Redirect and enable Passkeys Auth Method in Pangea console
 Since we’re using a React SPA (single page application), we need to add an authorized redirect, so that Pangea’s AuthN hosted pages can successfully redirect us back to the http://localhost:3000/ when a user is done authenticating.
