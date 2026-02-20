@@ -16,7 +16,7 @@ function App() {
               <p>
                 Welcome, {user.email}!
                 <br />
-                <button style={{ 
+                <button style={{
                   background: 'linear-gradient(to right, #ff416c, #ff4b2b)',
                   border: 'none',
                   color: 'white',
@@ -26,11 +26,11 @@ function App() {
                   fontSize: '16px',
                   fontWeight: 'bold',
                   boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.2)',
-                }} 
+                }}
                 onClick={logout}>Logout</button>
               </p>
               :
-            <button style={{ 
+            <button style={{
               background: 'linear-gradient(to right, #416cff, #4b2bff)',
               border: 'none',
               color: 'white',
@@ -47,7 +47,7 @@ function App() {
           <a href="https://www.producthunt.com/posts/passkeys-by-pangea?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-passkeys&#0045;by&#0045;pangea" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=447101&theme=light" alt="Passkeys&#0032;by&#0032;Pangea - Authenticate&#0032;Smarter&#0044;&#0032;Not&#0032;Harder&#0032;with&#0032;Passkeys | Product Hunt" style={{width: "250px", height: "54px", width: "250", height: "54"}} /></a>
           <a
             className="App-link"
-            href="https://l.pangea.cloud/yTXgwdq"
+            href="https://pangea.cloud/docs/authn"
             target="_blank"
           >
             Try Pangea AuthN for free today!
